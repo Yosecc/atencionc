@@ -31,3 +31,13 @@ Route::post('registro.envio', [
 Route::get('vista','RegistroController@vista');
 Route::get('reporte','RegistroController@reporte');
 Route::get('enviar','RegistroController@Enviar_excel');
+
+
+// FRONT
+// ============
+// 
+
+Route::get('peticiones', [
+      'as'=>'modules.peticiones',
+      'uses'=>'FrontController@peticiones' 
+      ]);

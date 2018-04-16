@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-	<meta name="description" content="La Asamblea Nacional de la República Bolivariana de Venezuela, como Poder del Estado, legítimo y reconocido, por la importante e inédita situación, ha decidido crear herramientas que permitan conocer donde se encuentran cada uno de los venezolanos que han debido emigrar para establecer un vínculo entre este importante grupo y sus familiares en el país, para así generar de forma concertada iniciativas que permitan mejorar sus condiciones económicas y sociales alcanzando el desarrollo integral de la familia como base de la nueva sociedad que aspiramos para lograr nuestro cambio.">
+	<meta name="description" content="">
 
 	<meta name="robots" content="index, follow">
 	<meta property="og:image" content="http://www.asambleanacional.gob.ve/images/logo.jpg">
 	<meta name="twitter:image" content="http://www.asambleanacional.gob.ve/images/logo.jpg">
 
-    <title>R.I.V.E</title>
+    <title>Atención al Ciudadano</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-grid.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-reboot.css') }}">
@@ -169,10 +169,7 @@
                 <div class="row justify-content-center align-items-center no-gutters content-text pl-1 pr-1" >
 
                     <div>
-                        <h2 class="color-white bold600">Bienvenido al Registro Internacional de Venezolanos en el Exterior</h2>
-                        <h2 class="color-white bold600" >
-                            RIVE
-                        </h2>
+                        <h2 class="color-white bold600">Atención al Ciudadano</h2>
                     </div>
 
                 </div>
@@ -185,5 +182,7 @@
         </div>
    </div>
    @stack('scripts')
+
+   <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
